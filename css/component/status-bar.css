@@ -1,0 +1,34 @@
+.status-bar{
+    /* 위치 고정 */
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 35px;
+    /* 한줄 나열 */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px 3px;
+}
+
+.status-bar_column{
+    width:33%;
+}
+
+.status-bar_column:nth-child(1){
+    margin-right:5px;
+}
+.status-bar_column:nth-child(2){
+    display:flex;
+    justify-content: center;
+}
+.status-bar_column:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.status-bar_column .fa-battery-three-quarters{
+    margin:0px 5px;
+}

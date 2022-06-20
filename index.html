@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KokoaTalk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>19:12</span>
+        </div>
+        <div class="status-bar_column">
+            <span>85%</span>
+            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header_title">코코아톡에 오신 것을 환영합니다</h1>
+        <p class="welcome-header_text">코코아톡에 접속하려면, 전화번호 또는 당신의 이메일로 접속하세요.</p>
+    </header>
+
+    <form id="login-form" action="chats.html">
+        <input type="text" placeholder="이메일 또는 전화번호">
+        <input type="password" placeholder="비밀번호">
+        <input type="submit" value="로그인">
+        <a href="#">아이디 또는 비밀번호 찾기</a>
+    </form>
+
+    <div id="no-mobile">
+        <span>화면이 너무 커요 ㅠㅠ</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/725698b300.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@import "reset.css";
+@import "variables.css";
+
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/badge.css";
+@import "component/icon-row.css";
+@import "component/alt-screen-header.css";
+@import "component/no-mobile.css";
+
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body{
+    /* fixed 고정 겹침 방지 */
+    padding-top: 35px;
+    padding-bottom: 75px;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+  }
+
+.welcome-header{
+    margin:90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header_title{
+    margin-bottom: 20px;
+    font-size:25px;
+}
+
+.welcome-header_text{
+    width:60%;
+    opacity: 0.7;
+}
+
+
